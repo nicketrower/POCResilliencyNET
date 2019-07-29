@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+/*   display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*background: #7cb400 url('../images/bg_gray.png') repeat-x; background-size: 100% 45%; */
+  /*background: #7cb400 url('./assets/bg_gray.png') repeat-x; background-size: 100% 45%;*/
+  background-image: url('./assets/bg-pattern.svg');
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input, .form-signin select {
+  margin-bottom: 10px;
+ /*  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; */
+}
+
+.form-signin .btn-primary {
+    background-color: #7cb400;
+    border-color: #7cb400;
+}
+
+.form-signin .btn-primary:hover {
+    background-color: #7cb400;
+    border-color: #7cb400;
+}
+
+.form-signin .btn-primary:active {
+    background: #ccc!important;
+    border-color: #ccc;
+  }
+
+  .form-signin .btn-primary:disabled {
+    background: #ccc!important;
+    border-color: #ccc;
+  }
+
+
+.form-signin .btn-primary:active:focus{
+    background-color: #ccc!important;
+    border-color: #ccc;
+  }
+
+  .alert-fixed {
+    position:fixed; 
+    top: 0px; 
+    left: 0px;
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 60%;
+    z-index:9999; 
+    border-radius:0px
+}
+
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+textarea {
+outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
+}

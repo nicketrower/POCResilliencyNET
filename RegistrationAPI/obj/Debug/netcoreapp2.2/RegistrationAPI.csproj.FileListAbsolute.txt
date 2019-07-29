@@ -1,0 +1,17 @@
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\RegistrationAPI.deps.json
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\RegistrationAPI.runtimeconfig.json
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\RegistrationAPI.runtimeconfig.dev.json
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\RegistrationAPI.dll
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\RegistrationAPI.pdb
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.csprojAssemblyReference.cache
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.csproj.CoreCompileInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.RazorAssemblyInfo.cache
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.RazorAssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.AssemblyInfoInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.AssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.RazorTargetAssemblyInfo.cache
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.dll
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.pdb
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\bin\Debug\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\DockerServices\RegistrationAPI\obj\Debug\netcoreapp2.2\RegistrationAPI.csproj.CopyComplete

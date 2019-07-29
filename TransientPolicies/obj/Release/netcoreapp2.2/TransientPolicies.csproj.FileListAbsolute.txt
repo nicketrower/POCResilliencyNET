@@ -1,0 +1,11 @@
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Release\netcoreapp2.2\TransientPolicies.deps.json
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Release\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Release\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.csprojAssemblyReference.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.csproj.CoreCompileInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.AssemblyInfoInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.AssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Release\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Release\netcoreapp2.2\TransientPolicies.runtimeconfig.json
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Release\netcoreapp2.2\TransientPolicies.runtimeconfig.dev.json

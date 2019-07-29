@@ -1,0 +1,60 @@
+version: "3"
+
+services:
+  registration:
+    image: registration
+    build:
+      context: .
+      dockerfile: RegistrationAPI/Dockerfile
+    ports:
+      - "8081:80"
+    container_name: registration
+    links:
+      - sqldb
+      - notification
+      - angular
+    depends_on:
+      - sqldb
+      - notification
+      - angular
+
+  notification:
+    image: notification
+    build:
+      context: .
+      dockerfile: NotificationAPI/Dockerfile
+    ports:
+      - "8082:80"
+    container_name: notification
+    depends_on:
+       - sqldb
+
+  sqldb:
+    image: microsoft/mssql-server-linux:latest
+    ports:
+      - "1433:1433"
+    volumes:
+      - /var/opt/mssql
+      # we copy our scripts onto the container
+      - ./Database:/usr/src/app 
+    # bash will be executed from that path, our scripts folder
+    working_dir: /usr/src/app 
+    # run the entrypoint.sh that will import the data AND sqlserver
+    command: sh -c 'chmod +x ./SqlCmdStartup.sh; ./SqlCmdStartup.sh & /opt/mssql/bin/sqlservr;'
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Pass@word
+    container_name: sqldb
+    
+  angular:
+    container_name: angular
+    image: angular
+    build: ./Angular7FrontEnd
+    #volumes:
+    #  - ./code:/usr/share/nginx/html
+    #volumes:
+    #  - "./Angular7FrontEnd:/usr/src/app"
+    ports:
+      - "3000:80"
+    #command: >
+    #  bash -c "npm install && ng serve --host 0.0.0.0 --port 4200"

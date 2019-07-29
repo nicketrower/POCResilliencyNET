@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1062px" height="679px" viewBox="0 0 1062 679" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.03">
+        <g id="Artboard" fill="#000000">
+            <g id="Pattern">
+                <g transform="translate(530.828508, 340.095018) scale(-1, -1) rotate(-180.000000) translate(-530.828508, -340.095018) translate(0.052185, 0.893107)" id="Shape">
+                    <polygon points="1060.69931 677.550483 706.56398 677.550483 706.56398 338.775242"></polygon>
+                    <polygon points="531.629661 508.589531 354.135328 508.589531 354.135328 338.775242"></polygon>
+                    <polygon points="354.988666 677.550483 177.494333 677.550483 177.494333 507.736193"></polygon>
+                    <polygon points="177.494333 508.589531 0 508.589531 0 338.775242"></polygon>
+                    <polygon points="1061.55265 339.62858 884.058313 339.62858 884.058313 169.81429"></polygon>
+                    <polygon points="884.058313 339.62858 706.56398 339.62858 706.56398 169.81429"></polygon>
+                    <polygon points="709.123994 169.81429 531.629661 169.81429 531.629661 0"></polygon>
+                    <polygon points="708.270656 338.775242 354.135328 338.775242 354.135328 0"></polygon>
+                    <polygon points="354.988666 339.62858 177.494333 339.62858 177.494333 169.81429"></polygon>
+                    <polygon points="177.494333 169.81429 0 169.81429 0 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

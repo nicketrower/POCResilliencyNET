@@ -1,0 +1,14 @@
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.deps.json
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.csproj.CoreCompileInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.AssemblyInfoInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.AssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\System.Net.Http.Formatting.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\System.Net.Http.Formatting.xml
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.csprojAssemblyReference.cache
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.csproj.CopyComplete
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\System.Data.SqlClient.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\System.Data.SqlClient.xml
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.pdb

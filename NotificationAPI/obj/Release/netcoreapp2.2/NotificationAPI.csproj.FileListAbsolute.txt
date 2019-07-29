@@ -1,0 +1,14 @@
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\bin\Release\netcoreapp2.2\NotificationAPI.deps.json
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\bin\Release\netcoreapp2.2\NotificationAPI.runtimeconfig.json
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\bin\Release\netcoreapp2.2\NotificationAPI.runtimeconfig.dev.json
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\bin\Release\netcoreapp2.2\NotificationAPI.dll
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\bin\Release\netcoreapp2.2\NotificationAPI.pdb
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.csprojAssemblyReference.cache
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.csproj.CoreCompileInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.RazorAssemblyInfo.cache
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.RazorAssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.AssemblyInfoInputs.cache
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.AssemblyInfo.cs
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.RazorTargetAssemblyInfo.cache
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.dll
+C:\Users\fxgli\source\repos\DockerServices\NotificationAPI\obj\Release\netcoreapp2.2\NotificationAPI.pdb
