@@ -7,6 +7,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Polly;
 using Polly.CircuitBreaker;
 using RegisterUserAPI.DAL;
@@ -26,12 +27,14 @@ namespace RegistrationAPI.Controllers
         private INotificationClient _notificationClient;
         private readonly GabDbContext _db;
         private readonly IUserBL _userbl;
-        public RegistrationController(IHttpClientFactory httpClientFactory, GabDbContext db, IUserBL userbl, INotificationClient notificationClient)
+        private readonly ILogger _logger;
+        public RegistrationController(IHttpClientFactory httpClientFactory, GabDbContext db, IUserBL userbl, INotificationClient notificationClient, ILogger<RegistrationController> logger)
         {
             _notificationClient = notificationClient;
             _httpClientFactory = httpClientFactory;
             _db = db;
             _userbl = userbl;
+            _logger = logger;
         }
 
         [HttpGet("GetStates")]
@@ -50,8 +53,6 @@ namespace RegistrationAPI.Controllers
 
             var sqlBreakerPolicy = polly.sqlCircuitBreakerPolicy();
 
-            //var client = _httpClientFactory.CreateClient("EmailService");
-
             try
             {
 
@@ -59,7 +60,7 @@ namespace RegistrationAPI.Controllers
                 {
                     try
                     {
-                        sqlBreakerPolicy.ExecuteAsync(async () =>
+                        await sqlBreakerPolicy.ExecuteAsync(async () =>
                        {
                            _db.UserInfo.Add(userInfo);
                            await _db.SaveChangesAsync();
@@ -67,16 +68,21 @@ namespace RegistrationAPI.Controllers
                     }
                     catch (Exception ex)
                     {
+                        _logger.LogError(ex.ToString());
                         return BadRequest(ex.ToString());
                     }
                 }
 
-                //string requestEndPoint = client.BaseAddress + userInfo.EmailAddress;
-
-
-                //response = await client.GetAsync(requestEndPoint);
-
-                response = await _notificationClient.SendNotification(userInfo.EmailAddress);
+                
+                try
+                {
+                    response = await _notificationClient.SendNotification(userInfo.EmailAddress);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex.ToString());
+                    return BadRequest(ex.ToString());
+                }
 
 
                 if (response.IsSuccessStatusCode)
@@ -94,19 +100,24 @@ namespace RegistrationAPI.Controllers
                 if (ex.ToString().Contains("The circuit is now open"))
                 {
                     //Return default value on exception. 
+                    _logger.LogError(ex.ToString());
                     return BadRequest("Circuit Breaker Policy Invoke to Open State.");
+                    
                 }
                 else if (ex.ToString().Contains("Polly.Bulkhead.BulkheadRejectedException"))
                 {
+                    _logger.LogError(ex.ToString());
                     return BadRequest("Bulkhead Isolation Policy Invoked.");
                 }
                 else
                 {
+                    _logger.LogError(ex.ToString());
                     return BadRequest(ex.ToString());
                 }
 
             }
 
+            _logger.LogError("Unknown Exception Occurred.");
             return BadRequest("Unknown Exception Occurred.");
         }
     }

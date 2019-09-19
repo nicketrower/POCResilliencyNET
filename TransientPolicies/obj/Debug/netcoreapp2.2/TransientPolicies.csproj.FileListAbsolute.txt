@@ -12,3 +12,14 @@ C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreap
 C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\bin\Debug\netcoreapp2.2\System.Data.SqlClient.xml
 C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.dll
 C:\Users\fxgli\source\repos\DockerServices\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.deps.json
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.runtimeconfig.json
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.runtimeconfig.dev.json
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\bin\Debug\netcoreapp2.2\TransientPolicies.pdb
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.csprojAssemblyReference.cache
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.csproj.CoreCompileInputs.cache
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.AssemblyInfoInputs.cache
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.AssemblyInfo.cs
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.dll
+C:\Users\fxgli\source\repos\POCResilliencyNET\TransientPolicies\obj\Debug\netcoreapp2.2\TransientPolicies.pdb

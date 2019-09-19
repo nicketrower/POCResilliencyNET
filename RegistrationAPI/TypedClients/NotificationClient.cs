@@ -16,7 +16,7 @@ namespace RegistrationAPI.TypedClients
         public NotificationClient(HttpClient client, ILogger<NotificationClient> logger, IConfiguration config)
         {
             _client = client;
-            _client.BaseAddress = new Uri($"http://notification/Message/NewUserRegistration/");
+            _client.BaseAddress = new Uri($"http://blocknotification.azurewebsites.net/Message/NewUserRegistration/");
             _client.DefaultRequestHeaders.Add("Accept", "application/json");
             _logger = logger;
         }

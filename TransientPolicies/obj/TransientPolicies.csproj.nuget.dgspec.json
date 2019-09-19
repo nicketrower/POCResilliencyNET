@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj": {}
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj": {
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj",
+        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj",
         "projectName": "TransientPolicies",
-        "projectPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj",
+        "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj",
         "packagesPath": "C:\\Users\\fxgli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\obj\\",
+        "outputPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

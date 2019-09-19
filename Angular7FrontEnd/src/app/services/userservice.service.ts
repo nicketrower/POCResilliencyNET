@@ -10,11 +10,11 @@ export class UserserviceService {
   constructor(private http: HttpClient) { }
 
   register(user: Userinfo) {
-    return this.http.post('http://localhost:8081/Register/RegisterUser', user);
+    return this.http.post('http://13.89.138.147/Register/RegisterUser', user);
   }
 
   getstates() {
-    return this.http.get('http://localhost:8081/Register/GetStates');
+    return this.http.get('http://13.89.138.147/Register/GetStates');
   }
 
 }

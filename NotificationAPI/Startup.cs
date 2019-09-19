@@ -40,6 +40,8 @@ namespace NotificationAPI
                 c.SwaggerDoc("v1", new Info { Title = "Notification API", Version = "v1" });
             });
 
+            services.AddApplicationInsightsTelemetry();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

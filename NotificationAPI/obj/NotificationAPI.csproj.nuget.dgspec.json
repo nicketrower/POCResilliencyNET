@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\NotificationAPI\\NotificationAPI.csproj": {}
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\NotificationAPI\\NotificationAPI.csproj": {
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\NotificationAPI\\NotificationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
         "projectName": "NotificationAPI",
-        "projectPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\NotificationAPI\\NotificationAPI.csproj",
+        "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
         "packagesPath": "C:\\Users\\fxgli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\NotificationAPI\\obj\\",
+        "outputPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,6 +64,10 @@
             "AspNetcore.HealthChecks.Publisher.ApplicationInsights": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.7.1, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",

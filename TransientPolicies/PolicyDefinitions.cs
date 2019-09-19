@@ -31,6 +31,7 @@ namespace TransientPolicies
             return HttpPolicyExtensions
                 .HandleTransientHttpError() // HttpRequestException, 5XX and 408
                 .OrResult(response => (int)response.StatusCode == 429) // RetryAfter
+                .OrResult(response => (int)response.StatusCode == 403) // RetryAfter
                 .WaitAndRetryAsync(new[]
                 {
                     TimeSpan.FromSeconds(1),
@@ -46,7 +47,9 @@ namespace TransientPolicies
 
         public Polly.CircuitBreaker.AsyncCircuitBreakerPolicy<HttpResponseMessage> circuitBreakerPolicy(int events, int waittime)
         {
-            return HttpPolicyExtensions.HandleTransientHttpError().CircuitBreakerAsync(
+            return HttpPolicyExtensions.HandleTransientHttpError()
+                .OrResult(response => (int)response.StatusCode == 403)
+                .CircuitBreakerAsync(
                 handledEventsAllowedBeforeBreaking: events,
                 durationOfBreak: TimeSpan.FromSeconds(waittime),OnBreak, OnReset, OnHalfOpen);
 

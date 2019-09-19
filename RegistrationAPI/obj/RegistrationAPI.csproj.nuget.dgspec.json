@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\RegistrationAPI\\RegistrationAPI.csproj": {}
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\RegistrationAPI\\RegistrationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\RegistrationAPI\\RegistrationAPI.csproj": {
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\RegistrationAPI\\RegistrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\RegistrationAPI\\RegistrationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\RegistrationAPI\\RegistrationAPI.csproj",
         "projectName": "RegistrationAPI",
-        "projectPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\RegistrationAPI\\RegistrationAPI.csproj",
+        "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\RegistrationAPI\\RegistrationAPI.csproj",
         "packagesPath": "C:\\Users\\fxgli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\RegistrationAPI\\obj\\",
+        "outputPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\RegistrationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj": {
-                "projectPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj"
+              "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj": {
+                "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj"
               }
             }
           }
@@ -68,6 +68,10 @@
             "AspNetcore.HealthChecks.Publisher.ApplicationInsights": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.7.1, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -131,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj": {
+    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj",
+        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj",
         "projectName": "TransientPolicies",
-        "projectPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\TransientPolicies.csproj",
+        "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\TransientPolicies.csproj",
         "packagesPath": "C:\\Users\\fxgli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fxgli\\source\\repos\\HRBlockPOC\\TransientPolicies\\obj\\",
+        "outputPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\TransientPolicies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
@@ -37,7 +38,7 @@ namespace NotificationAPI.Controllers
             //if (_requestCount % 5 == 0)
             //{
             //Disabled to Share the Code
-            await SendEmail("nicketrower@gmail.com", "Registration", "<p>Thank you!</p>");
+            await SendEmail("nicketrower@gmail.com", "Registration", "<p>Thank you for your registration!</p>");
             return Ok(emailAddress);
             //}
 
@@ -47,7 +48,13 @@ namespace NotificationAPI.Controllers
 
         private async Task SendEmail(string email, string subject, string htmlContent)
         {
-            await Task.Delay(100);
+            var apiKey = "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";
+            var client = new SendGridClient(apiKey);
+            var from = new EmailAddress("support@somecompany.com", "Registration");
+            var to = new EmailAddress(email);
+            var plainTextContent = Regex.Replace(htmlContent, "<[^>]*>", "");
+            var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
+            await client.SendEmailAsync(msg);
         }
     }
 }
