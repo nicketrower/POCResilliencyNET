@@ -58,19 +58,19 @@ namespace RegistrationAPI.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    try
-                    {
-                        await sqlBreakerPolicy.ExecuteAsync(async () =>
-                       {
+                    //try
+                    //{
+                    //    await sqlBreakerPolicy.ExecuteAsync(async () =>
+                    //   {
                            _db.UserInfo.Add(userInfo);
                            await _db.SaveChangesAsync();
-                       });
-                    }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError(ex.ToString());
-                        return BadRequest(ex.ToString());
-                    }
+                    //   });
+                    //}
+                    //catch (Exception ex)
+                    //{
+                    //    _logger.LogError(ex.ToString());
+                    //    return BadRequest(ex.ToString());
+                    //}
                 }
 
                 

@@ -87,7 +87,7 @@ namespace RegistrationAPI
             services.AddHealthChecks()
                   .AddApplicationInsightsPublisher()
                   .AddDbContextCheck<GabDbContext>("SQL DB")
-                  .AddUrlGroup(new Uri("http://blocknotification.azurewebsites.net"), "NOTIFICATION API");
+                  .AddUrlGroup(new Uri("http://notification"), "NOTIFICATION API");
 
             services.AddApplicationInsightsTelemetry();
 

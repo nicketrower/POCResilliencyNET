@@ -38,7 +38,7 @@ namespace NotificationAPI.Controllers
             //if (_requestCount % 5 == 0)
             //{
             //Disabled to Share the Code
-            await SendEmail("nicketrower@gmail.com", "Registration", "<p>Thank you for your registration!</p>");
+            //await SendEmail("nicketrower@gmail.com", "Registration", "<p>Thank you for your registration!</p>");
             return Ok(emailAddress);
             //}
 
