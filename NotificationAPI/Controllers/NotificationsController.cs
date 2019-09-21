@@ -48,7 +48,7 @@ namespace NotificationAPI.Controllers
 
         private async Task SendEmail(string email, string subject, string htmlContent)
         {
-            var apiKey = "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";
+            var apiKey = "";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("support@somecompany.com", "Registration");
             var to = new EmailAddress(email);

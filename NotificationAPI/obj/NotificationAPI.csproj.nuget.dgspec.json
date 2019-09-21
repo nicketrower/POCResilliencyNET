@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {}
+    "C:\\Users\\fxgli\\Documents\\WebApps\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {
+    "C:\\Users\\fxgli\\Documents\\WebApps\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fxgli\\Documents\\WebApps\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
         "projectName": "NotificationAPI",
-        "projectPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
+        "projectPath": "C:\\Users\\fxgli\\Documents\\WebApps\\POCResilliencyNET\\NotificationAPI\\NotificationAPI.csproj",
         "packagesPath": "C:\\Users\\fxgli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fxgli\\source\\repos\\POCResilliencyNET\\NotificationAPI\\obj\\",
+        "outputPath": "C:\\Users\\fxgli\\Documents\\WebApps\\POCResilliencyNET\\NotificationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
